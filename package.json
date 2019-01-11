@@ -7,7 +7,7 @@
   },
   "description": "Example application written in Angular using Redux",
   "scripts": {
-    "postinstall": "ng build --aot -prod",
+    "postinstall": "ng build --aot",
     "ng": "ng",
     "start": "node server",
     "build": "ng build",
