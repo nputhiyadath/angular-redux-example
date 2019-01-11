@@ -1,6 +1,10 @@
 {
   "name": "angular_redux",
   "version": "1.0.0",
+  "engines": {
+    "node": "10.15.0",
+    "npm": "6.4.1"
+  },
   "description": "Example application written in Angular using Redux",
   "scripts": {
     "postinstall": "ng build --aot -prod",
@@ -50,9 +54,5 @@
     "ts-node": "^7.0.1",
     "tslint": "^5.12.1",
     "typescript": "^3.2.2"
-  },
-  "engine": {
-    "node": "10.15.0",
-    "npm": "6.4.1"
   }
 }
